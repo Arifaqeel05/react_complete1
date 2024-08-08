@@ -6,13 +6,19 @@ function App() {
 
   const addValue=()=>{
     //count=count+1;
+    if(count<20){
     setCount(count+1);
     console.log("Value updated successfully")
+    }
   }
 
   const removeValue=()=>{
+
+    if(count>0){
     setCount(count-1);
     console.log("removed successfully");
+    }
+    
   }
 
   return (
