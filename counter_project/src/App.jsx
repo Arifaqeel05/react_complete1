@@ -10,6 +10,9 @@ function App() {
     setCount(count+1);
     console.log("Value updated successfully")
     }
+    else{
+      alert("VALUE CAN NOT BE INCREASED MORE");
+    }
   }
 
   const removeValue=()=>{
@@ -17,6 +20,10 @@ function App() {
     if(count>0){
     setCount(count-1);
     console.log("removed successfully");
+    }
+
+    else{
+      alert("VALUE CAN NOT BE DECREASED MORE");
     }
     
   }
