@@ -27,6 +27,7 @@ button{
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 10px;
 
   transition: background-color 0.5 ease;
 
@@ -52,6 +53,26 @@ button{
   
 }
 
+.update{
+  background-color: hsl(190,90%, 50%)
+  
+}
+
+.update:hover{
+  background-color: hsl(190,90%, 40%)
+  
+}
+
+.btn1{
+  background-color: hsl(61,90%, 50%)
+  
+}
+
+.btn1:hover{
+  background-color: hsl(61, 90%, 40%)
+  
+}
+
 .moveup-button,.movedown-button{
   background-color: hsl(207,90%, 64%)
   
@@ -61,6 +82,8 @@ button{
   background-color: hsl(207,90%, 54%)
   
 }
+
+
 
 input[type="text"]{
   font-size: 1.6rem;
@@ -94,7 +117,7 @@ li{
 
 }
 
-.delete-button, .moveup-button,.movedown-button{
+.delete-button, .moveup-button,.movedown-button,.update{
   padding: 8px 12px;
   font-size: 1.rem;
   margin-left: 10px;
