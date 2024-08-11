@@ -6,7 +6,7 @@ import Result from './componet/Result'
 function App() {
 
   return (
-    <div>
+    <div className='bg-[green]'>
       <Search/>
       <Result/>
     </div>
