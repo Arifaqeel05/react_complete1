@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid black;
+}
+
+.row, .col-6,.col-3, .col-9,.col-12{
+    border: 5px solid orange;
+    
+}
+.col-1{
+    border: 2px solid red;
+   margin: 0px;
+}
+.col{
+    border: 2px dotted black;
+}
